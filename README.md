@@ -1,6 +1,6 @@
 # CredibleMind Coding test
 
-Our mission is to help everyone optimize their mental health, emotional wellbeing and spiritual growth. Here we are going to do simple version of news list page.Please read the following instruction carefully. Expected test could be finished in 3-5 hour. Welcome to raise any question.
+Our mission is to help everyone optimize their mental health, emotional wellbeing and spiritual growth. Here we are going to do simple version of news list page. Please read the following instruction carefully. Expected test could be finished in 3-5 hours. Welcome to raise any question.
 
 ## Installation
 
@@ -29,6 +29,7 @@ to launch web client http://localhost:3000
 a) Fetch news page config from contentful data and display
 
 - use contentful service provided in `/lib/contentfulService.ts`
+- content-type=`newsConfig`
 - use response data to display image, title, menu label and filter/search label dynamically. Please refer below for field mapping of text in red
   ![image](public/readme/config-field.png)
 
@@ -43,9 +44,14 @@ b) Fetch news data from algolia and display
 c) Implement filter/search
 
 - create search box as per design
-- implement search feature using algolia search, hitting search icon should update the news list card based on search results
+- implement search feature using algolia search, hitting search icon should update the news list based on search results
 
-d) Bonus
+d) Create news item page
+
+- clicking each card should redirect to news item page `/news/"slug`
+- item page should display the same card ui
+
+e) Bonus
 
 - implement login/signup with google using firebase with config provided in `/lib/firebaseConfig.ts` using `next-auth`
 - make the page protected if non-authenticated with logout feature

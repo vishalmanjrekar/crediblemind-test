@@ -30,7 +30,7 @@ a) Fetch news page config from contentful data and display
 
 - use contentful service provided in `/lib/contentfulService.ts`
 - use response data to display image, title, menu label and filter/search label dynamically. Please refer below for field mapping of text in red
-  ![image](public/readme/config-field-card.png)
+  ![image](public/readme/config-field.png)
 
 b) Fetch news data from algolia and display
 
@@ -44,7 +44,8 @@ c) Implement filter/search
 
 - create search box as per design
 - implement search feature using algolia search, hitting search icon should update the news list card based on search results
-  d) Bounus
+
+d) Bonus
 
 - implement login/signup with google using firebase with config provided in `/lib/firebaseConfig.ts` using `next-auth`
 - make the page protected if non-authenticated with logout feature

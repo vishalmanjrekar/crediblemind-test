@@ -33,7 +33,7 @@ a) Fetch news page config from contentful data and display
 - use response data to display image, title, menu label and filter/search label dynamically. Please refer below for field mapping of text in red
   ![image](public/readme/config-field.png)
 
-b) Fetch news data from algolia and display
+b) Fetch news data from algolia **_news_** index and display
 
 - use algolia service to fetch all the data, config is provided in `/lib/algoliaService.ts`
 - display news card as per the design (as close as possible)
@@ -48,7 +48,7 @@ c) Implement filter/search
 
 d) Create news item page
 
-- clicking each card should redirect to news item page `/news/"slug`
+- clicking each card should redirect to news item page `/news/<slug>`
 - item page should display the same card ui
 
 e) Bonus

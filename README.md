@@ -45,6 +45,8 @@ c) Implement filter/search
 
 - create search box as per design
 - implement search feature using algolia search, hitting search icon should update the news list based on search results
+- create a filter box following the design pattern
+- implement filter by topic title using algolia search, selecting a topic title should filter the results to the ones containing the topic on the `topics.title` field
 
 d) Create news item page
 

@@ -26,6 +26,13 @@ yarn run dev
 
 to launch web client http://localhost:3000
 
+## Questions?
+
+### Send Email to developers@crediblemind.com
+
+```developers@crediblemind.com
+```
+
 ## Frontend test requirement
 
 #### Implement news list page **_with_** search feature such as

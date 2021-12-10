@@ -2,6 +2,12 @@
 
 Our mission is to help everyone optimize their mental health, emotional wellbeing and spiritual growth. Here we are going to do simple version of news list page. Please read the following instruction carefully. Expected test could be finished in 3-5 hours. Welcome to raise any question.
 
+## General Instructions
+
+- Fork this repo
+- Start `Coding!`
+- Push your solution to your forked repo and we will check it
+
 ## Installation
 
 ```bash

@@ -1,0 +1,12 @@
+.container {
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu {
+  color: gray;
+  font-weight: 600;
+  margin-top: 2rem;
+}

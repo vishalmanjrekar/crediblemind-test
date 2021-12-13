@@ -1,0 +1,79 @@
+.orgName {
+  color: #609bbf;
+  font-weight: 500;
+  font-size: 15px;
+  padding-left: 0.5rem;
+}
+.container {
+  display: flex;
+  align-items: center;
+  height: 170px;
+  margin-bottom: 40px;
+}
+
+.topicContainer {
+  display: flex;
+  align-items: center;
+  color: #609bbf;
+}
+
+.name {
+  font-weight: 700;
+  font-size: larger;
+  margin-top: 0.5rem;
+  margin-bottom: 0.1rem;
+  color: #444;
+}
+
+.topic {
+  font-weight: 500;
+  color: blue;
+  margin-right: 10px;
+  font-size: small;
+}
+
+.imgContainer {
+  flex: none;
+  padding-right: 1rem;
+  height: 170px;
+  width: 320px;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.contentContainer {
+  padding-left: 1rem;
+  height: 170px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  justify-content: space-between;
+}
+.publicationDate {
+  font-weight: 500;
+  padding-right: 0.5rem;
+  font-size: 15px;
+  color: gray;
+}
+
+.end {
+  display: flex;
+  align-items: center;
+}
+
+.description {
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 0.3rem;
+  display: -webkit-box;
+  color: gray;
+  /* For test truncate */
+  overflow: hidden;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  max-width: 100%;
+}

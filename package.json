@@ -8,11 +8,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.7.0",
+    "@emotion/styled": "^11.6.0",
+    "@mui/material": "^5.2.3",
     "algoliasearch": "^4.11.0",
     "contentful": "^9.1.5",
+    "dayjs": "^1.10.7",
     "next": "12.0.7",
     "react": "17.0.2",
     "react-dom": "17.0.2",
+    "react-icons": "^4.3.1",
     "react-query": "^3.34.0"
   },
   "devDependencies": {
